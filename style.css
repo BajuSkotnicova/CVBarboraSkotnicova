@@ -1,6 +1,6 @@
 
 body{
-  
+  margin:0;
   font-size: 18px;
   font-family:Merriweather ;
   color: #45454D;
@@ -23,7 +23,6 @@ body{
   font-family:Merriweather ;
   font-weight: bold;
   
-  
 }
 
 .header{
@@ -39,6 +38,8 @@ h1{
   float: right;
   margin-right: 200px;
   margin-top: -350px;
+  width:350px;
+  height:350px;
   
   
 }
@@ -57,26 +58,28 @@ h1{
   float: left;
   margin: auto 100px;
   margin-top: 100px;
+ 
 }
 .about{
   float: left;
   margin-top: 100px;
+  width:400px;
+  height:400px;
+  margin-left: 20px;
 }
   
 
-  footer{
+footer{
     background-color: #F9DBBB;
     color: #45454D;
-  height: 150px;
-   justify-content: center;
-    align-items: center;
+    height: 150px; 
   }
 
 .footer p{
   text-align: center;
   padding-top: 80px;
- 
 }
+
 .contact{
   margin-left: 10px;
   margin-top: 40px;
@@ -89,7 +92,7 @@ h1{
   
  
   }
-  .li{
+  .linkedin{
     width: 25px;
     height: 25px;
   }
